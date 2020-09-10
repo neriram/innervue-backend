@@ -70,7 +70,7 @@ require('./config/passport')(passport);
 // route controllers
 app.use('/users', require('./controllers/users'));
 
-// check for enviromenmtal variable errors
+// check for enviromenmtal variable errorssss
 toolbox.envError();
 
 // initialize app on port
